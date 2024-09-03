@@ -1,1 +1,21 @@
+1. Python
+2. JavaScript
+3. C
 
+Python:
+Tipo: Linguagem interpretada e de alto nível.
+Sintaxe: Simples e legível. Usa indentação para definir blocos de código.
+Usos: Desenvolvimento web, ciência de dados, automação, scripting, etc.
+Execução: Código interpretado linha a linha pelo interpretador Python.
+
+JavaScript:
+Tipo: Linguagem interpretada e de alto nível, originalmente desenvolvida para navegadores web.
+Sintaxe: Semelhante ao C em muitos aspectos, mas com características próprias como eventos e manipulação do DOM.
+Usos: Desenvolvimento web (principalmente frontend), backend com Node.js, desenvolvimento de aplicativos móveis e desktop.
+Execução: Principalmente em navegadores ou em ambientes como Node.js.
+
+C:
+Tipo: Linguagem compilada e de baixo nível, conhecida por sua performance e controle de hardware.
+Sintaxe: Mais detalhada e rígida, exige a declaração explícita de tipos e a gestão manual de memória.
+Usos: Desenvolvimento de sistemas operacionais, software embarcado, aplicativos de alta performance.
+Execução: Código compilado em binário pelo compilador, o que pode gerar executáveis mais rápidos.
