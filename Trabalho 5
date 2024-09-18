@@ -1,1 +1,44 @@
+Estrutura de Repetição
+Vamos usar um loop for para imprimir os números de 1 a 5.
 
+python
+Copiar código
+# Exemplo de estrutura de repetição (loop for)
+for i in range(1, 6):  # range(1, 6) gera os números de 1 a 5
+    print(f"Número: {i}")
+No código acima, o loop for percorre uma sequência de números gerada pela função range, que neste caso vai de 1 a 5. A cada iteração, o número é impresso na tela.
+
+Estrutura de Tomada de Decisão
+Agora, vamos usar uma estrutura condicional if para verificar se um número é positivo, negativo ou zero.
+
+python
+Copiar código
+# Exemplo de estrutura de tomada de decisão (condicional if)
+numero = int(input("Digite um número: "))
+
+if numero > 0:
+    print("O número é positivo.")
+elif numero < 0:
+    print("O número é negativo.")
+else:
+    print("O número é zero.")
+Neste código, o usuário é solicitado a digitar um número. O programa então verifica se o número é positivo, negativo ou zero usando a estrutura condicional if-elif-else, e exibe a mensagem correspondente.
+
+Exemplo Completo com Ambos os Elementos
+Aqui está um exemplo que combina ambos os elementos: um loop e uma estrutura condicional. O programa solicita ao usuário que insira vários números e determina se cada número é positivo, negativo ou zero.
+
+python
+Copiar código
+# Exemplo combinando loop e estrutura condicional
+quantidade = int(input("Quantos números você deseja analisar? "))
+
+for _ in range(quantidade):
+    numero = int(input("Digite um número: "))
+    
+    if numero > 0:
+        print("O número é positivo.")
+    elif numero < 0:
+        print("O número é negativo.")
+    else:
+        print("O número é zero.")
+Neste exemplo, o loop for é usado para iterar um número de vezes especificado pelo usuário. Para cada iteração, o usuário é solicitado a digitar um número, e o programa usa a estrutura condicional para determinar e imprimir se o número é positivo, negativo ou zero.
