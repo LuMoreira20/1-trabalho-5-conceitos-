@@ -1,1 +1,43 @@
+1 – implemente o algoritmo de ordenação Bubble Sort usando python:
 
+def bubble_sort(lista):
+    n = len(lista)
+    for i in range(n - 1):
+        # Flag para otimizar o algoritmo caso a lista já esteja ordenada
+        trocou = False
+        for j in range(n - 1 - i):
+            if lista[j] > lista[j + 1]:
+                # Troca os elementos
+                lista[j], lista[j + 1] = lista[j + 1], lista[j]
+                trocou = True
+        # Se não houve troca, a lista já está ordenada
+        if not trocou:
+            break
+    return lista
+
+# Exemplo de uso
+lista_exemplo = [64, 34, 25, 12, 22, 11, 90]
+ordenada = bubble_sort(lista_exemplo)
+print("Lista ordenada:", ordenada)
+
+
+
+2- Implemente um algorítimo que imprima apenas as vogais de uma determinada palavra ou frase:
+
+def imprimir_vogais(texto):
+    # Definimos as vogais
+    vogais = "aeiouAEIOU"
+    resultado = ""
+
+    # Percorremos cada letra no texto
+    for letra in texto:
+        # Se a letra for uma vogal, adiciona ao resultado
+        if letra in vogais:
+            resultado += letra
+
+    # Imprime o resultado
+    print("Vogais na frase:", resultado)
+
+# Exemplo de uso
+texto = input("Digite uma palavra ou frase: ")
+imprimir_vogais(texto)
